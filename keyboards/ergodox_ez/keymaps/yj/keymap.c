@@ -80,8 +80,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  // Right hand
  TG(1),           KC_6,       KC_7,              KC_8,             KC_9,         KC_0,       KC_MINUS,
  MO(1),           KC_Y,       KC_U,              KC_I,             KC_O,         KC_P,       KC_EQUAL,
-                  KC_H,       KC_J,              KC_K,             KC_L,         KC_SCOLON,  KC_RCTRL,         
- KC_RBRACKET,     KC_N,       KC_M,              KC_COMMA,         KC_DOT,       KC_SLASH,   RSFT_T(KC_BSLASH),  
+                  KC_H,       KC_J,              KC_K,             KC_L,         KC_SCOLON,  RCTL_T(KC_QUOTE),
+ KC_RBRACKET,     KC_N,       KC_M,              KC_COMMA,         KC_DOT,       KC_SLASH,   RSFT_T(KC_BSLASH),
                               RALT_T(KC_LEFT),   KC_UP,            KC_DOWN,      KC_RIGHT,   KC_RGUI,
 
  // Right thumb
@@ -103,11 +103,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                      KC_TRNS, KC_TRNS, KC_TRNS,
 
  // Right
- KC_TRNS, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_TRNS,
- KC_TRNS, KC_F16,  KC_F17,  KC_F18,  KC_F19,  KC_F20,  KC_TRNS,
-          KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
- KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-                   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+ KC_TRNS, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_TRNS,
+ KC_TRNS, KC_F16,  KC_F17,  KC_F18,  KC_F19,  KC_F20,   KC_TRNS,
+          KC_TRNS, KC_LEFT, KC_UP,   KC_DOWN, KC_RIGHT, KC_TRNS,
+ KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,
+                   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,
  KC_TRNS, KC_TRNS,
  KC_TRNS,
  KC_TRNS, KC_TRNS, KC_TRNS)
